@@ -1,16 +1,30 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+import Advertising from './components/advertising/Advertising'
+import Footer from './components/footer/Footer'
+import Grid from './components/grid/Grid'
+import Header from './components/header/Header'
+import Questions from './components/questions/Questions'
+import Slider from './components/slider/Slider'
+
+
+
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-   <div>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-       Molestias quidem quasi sed veritatis, amet velit deserunt quae consequatur sequi
-       numquam tenetur excepturi dolorem praesentium reprehenderit harum, aperiam expedita quaerat unde.</p>
-   </div>
+   <>
+      <Header />
+      <Slider />
+      <Grid/>
+      <Advertising />
+      <Questions />
+      <Footer />
+
+   </>
   )
 }
 
