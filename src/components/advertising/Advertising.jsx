@@ -3,7 +3,7 @@ import Styles from './advertising.module.css'
 
 const Advertising = () => {
   return (
-    <div className={Styles.title}>Advertising</div>
+    <div className={Styles.titleЁ}>Advertising</div>
   )
 }
 

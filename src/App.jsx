@@ -19,7 +19,7 @@ function App() {
    <>
       <Header />
       <Slider />
-      <Grid/>
+      <Grid img="./components/grid/Rectangle 632.png" title="Конная прогулка" buy="от 990р"/>
       <Advertising />
       <Questions />
       <Footer />
