@@ -1,0 +1,56 @@
+.fuq{
+    /* max-width: 500px;
+    margin: 20px auto; */
+}
+
+.fuqitem{
+ 
+}
+
+.fuqtitle{
+    display: block;
+    color: #000000;
+    cursor: pointer;
+    margin-right: 900px;
+    padding: 10px 15px;
+    font-size: 30px;
+    
+
+    
+
+    /* transition:background .2s ease-out; */
+}
+
+/* .fuqtitle:hover{
+    background-color: #b91125;
+} */
+
+.fuqText{
+    display: none;
+    color: #505050;
+    font-size: 20px;
+    padding: 10px 15px;
+    margin-right: 900px;
+    
+}
+
+.fuqinput{
+    /* width: 0;
+    height: 0;
+
+    -webkit-appearance: none;
+    appearance: none; */
+    margin-top: -90px;
+    margin-left: 600px;
+    width: 30px;
+    height: 40px;
+    
+    position: absolute; 
+}
+
+.fuqinput:checked + .fuqText {
+    display: block;
+}
+
+
+
